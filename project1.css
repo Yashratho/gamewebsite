@@ -85,4 +85,16 @@ h3{
 .bubble:hover {
     cursor: pointer;
     background-color: black;
-}   
+}
+/* project1.css */
+
+#startBtn {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    padding: 20px 40px; /* Increase padding for a bigger button */
+    font-size: 15px; /* Adjust font size */
+    cursor: pointer;
+    display: block; /* Center horizontally */
+    margin: 0 auto; /* Center horizontally */
+}
