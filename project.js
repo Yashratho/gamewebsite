@@ -7,7 +7,7 @@ function increaseScore() {
 }
 
 function getNewHit() {
-    hitrn = Math.floor(Math.random() * 20);
+    hitrn = Math.floor(Math.random() * 152);
     document.querySelector("#hit1").textContent = hitrn;
 }
 
