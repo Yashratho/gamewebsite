@@ -14,7 +14,7 @@ function getNewHit() {
 function makeBubble() {
     var clutter = "";
     for (var i = 1; i <= 152; i++) {
-        var rn = Math.floor(Math.random() * 20);
+        var rn = Math.floor(Math.random() * 152);
         clutter += `<div class="bubble"><h3>${rn}</h3></div>`;
     }
     document.querySelector("#pbtm").innerHTML = clutter;
