@@ -14,7 +14,7 @@ function getNewHit() {
 function makeBubble() {
     var clutter = [];
 var clutterHtml = '';
-    while(clutter.length > 152){
+    while(clutter.length < 152){
         var rn = Math.floor(Math.random() * 152);
         if(!clutter.containts(rn)){
             clutter.push(rn);
