@@ -16,7 +16,7 @@ function makeBubble() {
 var clutterHtml = '';
     while(clutter.length < 152){
         var rn = Math.floor(Math.random() * 152);
-        if(!clutter.containts(rn)){
+        if(!clutter.includes(rn)){
             clutter.push(rn);
             clutterHtml += `<div class="bubble"><h3>${rn}</h3></div>`;
         }
