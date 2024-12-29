@@ -36,6 +36,7 @@ function runTimer() {
             timer--;
             document.querySelector("#timerval").textContent = timer;
         } else {
+            timer=60;
             clearInterval(timerint);
             document.querySelector("#pbtm").innerHTML = `<h1>GAME OVER</h1>`;
         }
