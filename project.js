@@ -29,8 +29,9 @@ var clutterHtml = '';
     document.querySelector("#pbtm").innerHTML = clutterHtml;
 }
 
-var timer = 60;
+
 function runTimer() {
+    var timer = 60;
     var timerint = setInterval(function () {
         if (timer > 0) {
             timer--;
